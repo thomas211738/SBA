@@ -1,10 +1,15 @@
 
 import requests
+from dotenv import load_dotenv
+import os
 
-# sport = 'icehockey_nhl'
-# url = f'https://api.the-odds-api.com/v4/sports/{sport}/odds/?apiKey={API_KEY}&regions=us&markets=h2h,spreads&oddsFormat=american'
+load_dotenv()
+API_KEY = os.getenv('API_KEY')
 
-# response = requests.get(url)
-# data = response.json()
+sport = 'icehockey_nhl'
+url = f'https://api.the-odds-api.com/v4/sports/{sport}/odds/?apiKey={API_KEY}&regions=us&markets=h2h,spreads&oddsFormat=american'
 
-# print(data)
+response = requests.get(url)
+data = response.json()
+
+print(data)
