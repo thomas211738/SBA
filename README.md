@@ -43,6 +43,16 @@ Here is an example we did with the mavericks vs clippers:
 
 <img width="930" alt="image" src="https://github.com/thomas211738/SBA/assets/109131481/304868f4-acb2-4bb5-b5bd-8737bbc13650">
 
+Our program collected odds every 5 minutes and had 38 odds for each book. You can also note that some values are NaN. This is because some books decide to close betting and so no odds are available. 
+
+These are our findings for in-game arbitrating:
+
+<img width="413" alt="image" src="https://github.com/thomas211738/SBA/assets/109131481/25c970eb-89f5-4de6-ac72-869d24f52851">
+<img width="412" alt="image" src="https://github.com/thomas211738/SBA/assets/109131481/d11d4940-31e0-4250-bfab-313a4f6312c8">
+
+In the first graph, we can see that all sportsbook odds are relatively similar at the beginning of the game. However, sportsbook odds varied a lot as the game went on, especially in the 70th minute. The second graph shows the best book odds for each team. 
+
+
 
 
 
