@@ -41,6 +41,8 @@ Our theory was that different sports books update their odds slightly differentl
 
 Here is an example we did with the mavericks vs clippers:
 
+<img width="930" alt="image" src="https://github.com/thomas211738/SBA/assets/109131481/304868f4-acb2-4bb5-b5bd-8737bbc13650">
+
 
 
 
