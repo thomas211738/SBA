@@ -39,7 +39,7 @@ Implied odds = 38% + 64.2% = 102%. Since the Implied Odds are greater than 1, th
 
 Our theory was that different sports books update their odds slightly differently after specific game events, and therefore there could be more significant differences in odds as the game goes on. 
 
-Here is an example we did with the mavericks vs clippers:
+Here is an example we did with the Mavericks vs Clippers:
 
 <img width="930" alt="image" src="https://github.com/thomas211738/SBA/assets/109131481/304868f4-acb2-4bb5-b5bd-8737bbc13650">
 
@@ -51,6 +51,17 @@ These are our findings for in-game arbitrating:
 <img width="412" alt="image" src="https://github.com/thomas211738/SBA/assets/109131481/d11d4940-31e0-4250-bfab-313a4f6312c8">
 
 In the first graph, we can see that all sportsbook odds are relatively similar at the beginning of the game. However, sportsbook odds varied a lot as the game went on, especially in the 70th minute. The second graph shows the best book odds for each team. 
+
+<img width="406" alt="image" src="https://github.com/thomas211738/SBA/assets/109131481/85564e19-aff1-4ecb-881c-cc268c12dad3">
+
+Now, when we look at the implied odds graph, we can see that the implied Odds are less than 1, so the odds favor the gambler. More interestingly, the game was arbitrable for almost all of it. This was because one book deviated a lot from the others, allowing for this opportunity to occur throughout the whole game. This gave us proof that arbitrage opportunities were still possible throughout the games. 
+
+## Possible errors and Future Considerations
+
+In the example we looked at, one thing we didn't consider was that the underdog team won. This could have been the reason that the book odds varied and not because of our hypothesized inconsistencies between the books. To address this in the future, we can look at a game where the favored team wins, and compare the variances of the sportsbook odds. Another improvement we can consider for the future is subscribing to the Odds-API paid version to get more odds data per game, or use web scraping. This can help us get more accurate and up-to-date odds. Sportsbooks update their books very quickly so getting data more frequently would help us keep up with them. 
+
+
+
 
 
 
