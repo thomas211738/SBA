@@ -33,6 +33,18 @@ The best odds here are with Unibet for odds1 and MyBookie.ag for odds2.
 | +163 | -179  |
 |  38%  |  64.2% |
 
-Implied odds = 38% + 64.2% = 102%. Since the Implied Odds are greater than 1, the odds are in favor of the book, and there is no arbitrage opportunity. This goes to show how difficult it is to find arbitrage opportunities. However, we wanted to see if arbitrage opportunities rose during the game. Our theory was that different sports books update their odds slightly differently after specific game events, and therefore there could be more significant differences as the game goes on within the odds.
+Implied odds = 38% + 64.2% = 102%. Since the Implied Odds are greater than 1, the odds are in favor of the book, and there is no arbitrage opportunity. This goes to show how difficult it is to find arbitrage opportunities. However, we wanted to see if arbitrage opportunities rose during the game. 
+
+## Finding Arbitrage Opportunities (during game)
+
+Our theory was that different sports books update their odds slightly differently after specific game events, and therefore there could be more significant differences in odds as the game goes on. 
+
+Here is an example we did with the mavericks vs clippers:
+
+
+
+
+
+
 
 
